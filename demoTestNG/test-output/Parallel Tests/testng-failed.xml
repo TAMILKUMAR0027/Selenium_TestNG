@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Parallel Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <parameter name="password" value="Kiot1234"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demoblaze.com/"/>
+    <parameter name="email" value="TamilKumar"/>
+    <classes>
+      <class name="com.TestNG.demo">
+        <methods>
+          <include name="validation" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.TestNG.demo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->

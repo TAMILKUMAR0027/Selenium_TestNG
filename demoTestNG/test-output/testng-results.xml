@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T19:59:20 IST" name="Parallel Tests" finished-at="2026-04-20T19:59:32 IST" duration-ms="12040">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T19:59:20 IST" name="Test" finished-at="2026-04-20T19:59:32 IST" duration-ms="12040">
+      <class name="com.TestNG.demo">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:20 IST" name="beforeTest" finished-at="2026-04-20T19:59:25 IST" duration-ms="4723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:20 IST" name="beforeTest" finished-at="2026-04-20T19:59:27 IST" duration-ms="6705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:20 IST" name="beforeTest" finished-at="2026-04-20T19:59:27 IST" duration-ms="6968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="invalid_with_username(java.lang.String,java.lang.String)[pri:2, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:25 IST" name="invalid_with_username" data-provider="testData" finished-at="2026-04-20T19:59:29 IST" duration-ms="4327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_with_username -->
+        <test-method signature="validation(java.lang.String,java.lang.String)[pri:1, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:27 IST" name="validation" finished-at="2026-04-20T19:59:32 IST" duration-ms="4821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TamilKumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiot1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method signature="invalid_with_username(java.lang.String,java.lang.String)[pri:2, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:27 IST" name="invalid_with_username" data-provider="testData" finished-at="2026-04-20T19:59:29 IST" duration-ms="2305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_with_username -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:29 IST" name="afterTest" finished-at="2026-04-20T19:59:30 IST" duration-ms="479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:29 IST" name="afterTest" finished-at="2026-04-20T19:59:30 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNG.demo@c730b35]" started-at="2026-04-20T19:59:32 IST" name="afterTest" finished-at="2026-04-20T19:59:32 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNG.demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel Tests -->
+</testng-results>
