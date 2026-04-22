@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="ValidKeyword" value="mac"></parameter>
+  <parameter name="InValidKeyword" value="kiot"></parameter>
+    <classes>
+      <class name="com.tests.tutorialLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
