@@ -2,36 +2,20 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T12:12:02 IST" name="Suite" finished-at="2026-04-22T12:12:20 IST" duration-ms="17876">
+  <suite started-at="2026-04-22T12:30:52 IST" name="Suite" finished-at="2026-04-22T12:31:25 IST" duration-ms="33333">
     <groups>
     </groups>
-    <test started-at="2026-04-22T12:12:02 IST" name="Test" finished-at="2026-04-22T12:12:20 IST" duration-ms="17876">
+    <test started-at="2026-04-22T12:30:52 IST" name="Test" finished-at="2026-04-22T12:31:25 IST" duration-ms="33333">
       <class name="com.tests.tutorialLogin">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:03 IST" name="beforeMethod" finished-at="2026-04-22T12:12:07 IST" duration-ms="3658" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:30:53 IST" name="beforeMethod" finished-at="2026-04-22T12:30:59 IST" duration-ms="5412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:03 IST" name="beforeMethod" finished-at="2026-04-22T12:12:07 IST" duration-ms="3875" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:30:53 IST" name="beforeMethod" finished-at="2026-04-22T12:30:58 IST" duration-ms="5163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:07 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-22T12:12:09 IST" duration-ms="2813" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ss@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jj2341j]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Invalid_login -->
-        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:07 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-22T12:12:09 IST" duration-ms="2345" status="FAIL">
+        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:30:58 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-22T12:31:01 IST" duration-ms="2503" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -71,19 +55,35 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:09 IST" name="afterMethod" finished-at="2026-04-22T12:12:10 IST" duration-ms="360" status="PASS">
+        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:30:59 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-22T12:31:03 IST" duration-ms="4696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jj2341j]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:01 IST" name="afterMethod" finished-at="2026-04-22T12:31:01 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:09 IST" name="afterMethod" finished-at="2026-04-22T12:12:10 IST" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:03 IST" name="afterMethod" finished-at="2026-04-22T12:31:04 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:10 IST" name="beforeMethod" finished-at="2026-04-22T12:12:12 IST" duration-ms="1981" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:04 IST" name="beforeMethod" finished-at="2026-04-22T12:31:06 IST" duration-ms="2069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="serachValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:12 IST" name="serachValid" finished-at="2026-04-22T12:12:13 IST" duration-ms="896" status="PASS">
+        <test-method signature="serachValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:06 IST" name="serachValid" finished-at="2026-04-22T12:31:06 IST" duration-ms="475" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serachValid -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:13 IST" name="afterMethod" finished-at="2026-04-22T12:12:13 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:06 IST" name="afterMethod" finished-at="2026-04-22T12:31:07 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:13 IST" name="beforeMethod" finished-at="2026-04-22T12:12:15 IST" duration-ms="1903" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:07 IST" name="beforeMethod" finished-at="2026-04-22T12:31:09 IST" duration-ms="1997" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="serach_InValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:15 IST" name="serach_InValid" finished-at="2026-04-22T12:12:15 IST" duration-ms="408" status="PASS">
+        <test-method signature="serach_InValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:09 IST" name="serach_InValid" finished-at="2026-04-22T12:31:19 IST" duration-ms="10540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,15 +113,15 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serach_InValid -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:15 IST" name="afterMethod" finished-at="2026-04-22T12:12:15 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:19 IST" name="afterMethod" finished-at="2026-04-22T12:31:20 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:16 IST" name="beforeMethod" finished-at="2026-04-22T12:12:17 IST" duration-ms="1894" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:20 IST" name="beforeMethod" finished-at="2026-04-22T12:31:22 IST" duration-ms="2247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:17 IST" name="valid_login" data-provider="validData" finished-at="2026-04-22T12:12:19 IST" duration-ms="1810" status="PASS">
+        <test-method signature="valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:22 IST" name="valid_login" data-provider="validData" finished-at="2026-04-22T12:31:25 IST" duration-ms="3321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:12:19 IST" name="afterMethod" finished-at="2026-04-22T12:12:20 IST" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@1e097d59]" started-at="2026-04-22T12:31:25 IST" name="afterMethod" finished-at="2026-04-22T12:31:25 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

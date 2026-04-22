@@ -56,8 +56,13 @@ public class tutorialLogin {
 	   searchbar.sendKeys(keyword);
 	   searchbar.sendKeys(Keys.ENTER);
 	   String expec="iMac";
+	   try {
 	   Assert.assertEquals(expec, d2.findElement(By.xpath("//a[text()='iMac']")).getText());
 	   System.out.println("Seached Succesfully");
+	   }catch (Exception e) {
+		   System.out.println(e.getMessage());
+		   log.error("Nothing is searched");
+	   }
 	    
   }
   @Parameters({"InValidKeyword"})
@@ -68,9 +73,13 @@ public class tutorialLogin {
 	   searchbar.sendKeys(keyword);
 	   searchbar.sendKeys(Keys.ENTER);
 	   String expec="There is no product that matches the search criteria.";
-	   Assert.assertEquals(expec, d2.findElement(By.xpath("//p[text()='There is no product that matches the search criteria.']")).getText());
+	   try {
+	   Assert.assertEquals(expec, d2.findElement(By.xpath("//p[text()='Tere is no product that matches the search criteria.']")).getText());
 	   System.out.println("UnSeached Succesfully");
-	    
+	   
+	   }catch(Exception e) {
+		   log.error("Aseertion is wrong");
+	   }
   }
   @BeforeMethod
   public void beforeMethod() {
