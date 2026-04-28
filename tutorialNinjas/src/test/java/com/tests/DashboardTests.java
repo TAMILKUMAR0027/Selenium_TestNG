@@ -12,7 +12,9 @@ public class DashboardTests extends BaseTest {
     public void loginTest() {
 
         LoginPage lp = new LoginPage(d);
+        LoginPage k=new LoginPage(d);
         lp.login("tamilkumar@gmail.com", "Kiot1234");
+        k.Invalid_login("tamilkumar@gmail.co", "Kiotuia");
 
         String title = d.getTitle();
 

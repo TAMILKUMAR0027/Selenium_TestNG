@@ -26,4 +26,13 @@ public class LoginPage {
         passwordBox.sendKeys(password);
         loginButton.click();
     }
+    
+	public void Invalid_login(String email, String password) {
+		// TODO Auto-generated method stub
+		myAccount.click();
+        loginLink.click();
+        emailBox.sendKeys(email);
+        passwordBox.sendKeys(password);
+        loginButton.click();
+	}
 }

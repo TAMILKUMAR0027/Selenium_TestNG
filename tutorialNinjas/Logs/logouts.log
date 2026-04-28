@@ -327,3 +327,7 @@
 [DEBUG] 2026-04-27 18:53:13.074 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 [DEBUG] 2026-04-27 18:53:13.076 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
 [DEBUG] 2026-04-27 18:53:13.078 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 10:21:14.493 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 10:21:14.500 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 10:21:14.502 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2026-04-28 10:21:14.503 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
