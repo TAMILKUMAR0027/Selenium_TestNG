@@ -7,7 +7,6 @@
         <methods>
           <include name="serachValid"/>
           <include name="afterMethod"/>
-          <include name="Invalid_login" invocation-numbers="0"/>
           <include name="beforeMethod"/>
           <include name="serach_InValid"/>
         </methods>

@@ -1,11 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T15:49:13 IST" name="Suite" finished-at="2026-04-22T15:49:13 IST" duration-ms="23">
+  <suite started-at="2026-04-27T18:36:15 IST" name="Default suite" finished-at="2026-04-27T18:36:27 IST" duration-ms="12072">
     <groups>
     </groups>
-    <test started-at="2026-04-22T15:49:13 IST" name="Test" finished-at="2026-04-22T15:49:13 IST" duration-ms="23">
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test started-at="2026-04-27T18:36:15 IST" name="Default test" finished-at="2026-04-27T18:36:27 IST" duration-ms="12072">
+      <class name="com.tests.tutorialLogin">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:16 IST" name="beforeMethod" finished-at="2026-04-27T18:36:21 IST" duration-ms="4366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:16 IST" name="beforeMethod" finished-at="2026-04-27T18:36:20 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:20 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-27T18:36:23 IST" duration-ms="2077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamil@kiot.ac.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hh1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login -->
+        <test-method signature="Invalid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:21 IST" name="Invalid_login" data-provider="InvalidData" finished-at="2026-04-27T18:36:23 IST" duration-ms="2519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jj2341j]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid_login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:23 IST" name="afterMethod" finished-at="2026-04-27T18:36:23 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:23 IST" name="afterMethod" finished-at="2026-04-27T18:36:23 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="serachValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:23 IST" name="serachValid" finished-at="2026-04-27T18:36:23 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'ValidKeyword' is required by @Test on method serachValid but has not been marked @Optional or defined
+in C:\Users\tamil\AppData\Local\Temp\testng-eclipse--934524850\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'ValidKeyword' is required by @Test on method serachValid but has not been marked @Optional or defined
+in C:\Users\tamil\AppData\Local\Temp\testng-eclipse--934524850\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachValid -->
+        <test-method signature="serach_InValid(java.lang.String)[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:23 IST" name="serach_InValid" finished-at="2026-04-27T18:36:23 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'InValidKeyword' is required by @Test on method serach_InValid but has not been marked @Optional or defined
+in C:\Users\tamil\AppData\Local\Temp\testng-eclipse--934524850\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'InValidKeyword' is required by @Test on method serach_InValid but has not been marked @Optional or defined
+in C:\Users\tamil\AppData\Local\Temp\testng-eclipse--934524850\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:885)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:959)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serach_InValid -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:24 IST" name="beforeMethod" finished-at="2026-04-27T18:36:26 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:26 IST" name="valid_login" data-provider="validData" finished-at="2026-04-27T18:36:27 IST" duration-ms="1533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tamilkumar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiot1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.tests.tutorialLogin@6ce86ce1]" started-at="2026-04-27T18:36:27 IST" name="afterMethod" finished-at="2026-04-27T18:36:27 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.tests.tutorialLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.utilities.validData;
 
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import java.time.Duration;
@@ -18,8 +19,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-
-public class tutorialLogin {
+@Listeners(DemoListener.class)
+public class tutorialLogin extends BaseTest{
 	private static final ThreadLocal<WebDriver> driver1 = new ThreadLocal<>();
 	private static Logger log= LogManager.getLogger(tutorialLogin.class);
   @Test(dataProvider="validData",dataProviderClass=validData.class)
@@ -81,22 +82,7 @@ public class tutorialLogin {
 		   log.error("Aseertion is wrong");
 	   }
   }
-  @BeforeMethod
-  public void beforeMethod() {
-      driver1.set(new ChromeDriver());
-      WebDriver d1 = driver1.get();
-      d1.manage().window().maximize();
-      d1.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-      log.info("Website launched");
-      d1.get("https://tutorialsninja.com/demo/");
-  }
-
-  @AfterMethod
-  public void afterMethod() {
-      WebDriver d1=driver1.get();
-      if(d1!=null) {
-          d1.quit();  
-      }
-  }
+ 
+  
 
 }

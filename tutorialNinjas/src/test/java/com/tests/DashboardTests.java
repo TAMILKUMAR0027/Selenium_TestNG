@@ -1,25 +1,21 @@
+// DashboardTests.java
 package com.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(com.tests.DemoListener.class)
+@Listeners(DemoListener.class)
 public class DashboardTests extends BaseTest {
 
-    LoginPage objLogin;
-    DashboardPage objDashboardPage;
-
     @Test(priority = 1)
-    public void DashboardTest() {
+    public void loginTest() {
 
-        objLogin = new LoginPage(driver);
-        objLogin.login("Admin", "admin123");
+        LoginPage lp = new LoginPage(d);
+        lp.login("tamilkumar@gmail.com", "Kiot1234");
 
-        objDashboardPage = new DashboardPage(driver);
+        String title = d.getTitle();
 
-        Assert.assertTrue(
-            objDashboardPage.getHomePageText().contains("Dashboard")
-        );
+        Assert.assertTrue(title.contains("Account") || title.contains("My Account"));
     }
 }

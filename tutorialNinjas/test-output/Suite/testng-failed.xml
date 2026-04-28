@@ -2,14 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="InValidKeyword" value="kiot"/>
-    <parameter name="ValidKeyword" value="mac"/>
     <classes>
       <class name="com.tests.tutorialLogin">
         <methods>
+          <include name="serachValid"/>
           <include name="afterMethod"/>
-          <include name="Invalid_login" invocation-numbers="0"/>
           <include name="beforeMethod"/>
+          <include name="serach_InValid"/>
         </methods>
       </class> <!-- com.tests.tutorialLogin -->
     </classes>
