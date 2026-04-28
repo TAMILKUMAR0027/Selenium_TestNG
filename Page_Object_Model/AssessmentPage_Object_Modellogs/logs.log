@@ -1,0 +1,8 @@
+[DEBUG] 2026-04-28 16:25:00.434 [TestNG-test-Test-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 16:25:00.434 [TestNG-test-Test-2] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 16:25:00.447 [TestNG-test-Test-2] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2026-04-28 16:25:00.447 [TestNG-test-Test-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 16:25:08.319 [TestNG-test-Test-1] BaseTest - Url is launched
+[INFO ] 2026-04-28 16:25:08.840 [TestNG-PoolService-1] BaseTest - Url is launched
+[INFO ] 2026-04-28 16:25:09.289 [TestNG-PoolService-1] BaseTest - Url is launched
+[INFO ] 2026-04-28 16:25:10.199 [TestNG-PoolService-2] BaseTest - Url is launched
