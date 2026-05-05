@@ -5,9 +5,9 @@
     <classes>
       <class name="com.tests.DashboardTest">
         <methods>
-          <include name="invalidLogin" invocation-numbers="0 1"/>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="invalidLogin" invocation-numbers="0"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.tests.DashboardTest -->
     </classes>
