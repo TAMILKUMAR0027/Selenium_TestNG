@@ -62,8 +62,7 @@ public class demo {
         getDriver().findElement(By.xpath("//button[text()='Log in']")).click();
 
         getWait().until(ExpectedConditions.visibilityOfElementLocated(By.id("nameofuser")));
-        String acp=getDriver().findElement(By.id("nameofuser")).getText();
-
+        String acp=getDriver().findElement(By.xpath("//a[text()='Welcome TamilKumar']")).getText();
         Assert.assertTrue(acp.contains("Welcome"));
     }
 
@@ -79,7 +78,9 @@ public class demo {
 
         getWait().until(ExpectedConditions.alertIsPresent());
         Alert alert=getDriver().switchTo().alert();
-        System.out.println(alert.getText());
+        String actualText = alert.getText();
+        Assert.assertEquals(actualText, "Wrong password.");
+       
         alert.accept();
     }
 
